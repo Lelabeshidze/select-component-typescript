@@ -15,6 +15,9 @@
 }
 .value {
   flex-grow: 1;
+  display: flex;
+  gap: 0.5em;
+  flex-wrap: wrap;
 }
 .clear-btn {
   background: none;
@@ -70,4 +73,3 @@
   background-color: hsl(200, 100%, 50%);
   color: white;
 }
- 
