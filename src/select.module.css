@@ -73,3 +73,27 @@
   background-color: hsl(200, 100%, 50%);
   color: white;
 }
+.option-badge {
+  display: flex;
+  align-items: center;
+  border: 0.05em solid #777;
+  border-radius: 0.25em;
+  padding: 0.15em 0.25em;
+  gap: 0.25em;
+  cursor: pointer;
+  background: none;
+  outline: none;
+}
+.option-badge:focus,
+.option-badge:hover {
+  background-color: hsl(0, 100%, 90%);
+  border-color: hsl(0, 100%, 50%);
+}
+.option-badge:focus > .remove-btn,
+.option-badge:hover > .remove-btn {
+  color: hsl(0, 100%, 50%);
+}
+.option-badge > .remove-btn {
+  font-size: 1.2em;
+  color: #777;
+}
